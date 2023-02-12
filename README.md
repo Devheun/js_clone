@@ -13,3 +13,12 @@ addEventListener가 더 선호된다 (removeEventListener로 event listener를 �
 
 - window object는 기본적으로 제공된다.
 
+- raw string이 반복되면 const를 이용해 상수로 만들어주기
+
+- className은 이전 class 상관하지 않고 모든걸 바꿔버림
+
+- 위와 같은 상황을 막고자 classList를 통해 class들의 목록으로 작업할 수 있게끔.
+
+- contains()는 우리가 명시한 class가 html element의 class에 포함되어 있는 지 말해줌.
+
+- toggle()은 토큰이 존재하면 토큰 제거, 토큰이 존재하지 않으면 토큰 추가
