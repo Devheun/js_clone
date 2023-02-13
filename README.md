@@ -22,3 +22,26 @@ addEventListener가 더 선호된다 (removeEventListener로 event listener를 �
 - contains()는 우리가 명시한 class가 html element의 class에 포함되어 있는 지 말해줌.
 
 - toggle()은 토큰이 존재하면 토큰 제거, 토큰이 존재하지 않으면 토큰 추가
+
+- html에서 form 태그 안에 input태그를 넣어야 작동한다.
+
+```
+function onLoginSubmit(event){
+  event.preventDefault(); // preventDefault() 함수는 브라우저가 기본 동작을 실행하지 못하게 막는다
+  //event object는 preventDefault 함수를 기본적으로 가지고 있다.
+}
+
+loginForm.addEventListener("submit", onLoginSubmit);
+```
+
+- form을 submit 하면 브라우저는 기본적으로 페이지를 새로고침하도록 프로그래밍되어 있음.
+
+- 그걸 방지하기 위해 위의 코드처럼 preventDefault()함수를 적용. (우리가 원하는 건 새로고침하는게 아니니까)
+
+- preventDefault()는 EventListener 함수의 첫번째 argument (방금 막 벌어진 event들에 대한 정보)안에 있는 함수
+
+- 관습 : string만 포함된 변수는 대문자로 작성
+
+- 입력값을 저장하기 위해서 사용하는 localStorage (미니 DB 느낌)
+
+- localStorage.setItem(), localStorage.getItem(), localStorage.removeItem() 등의 함수가 있음.
