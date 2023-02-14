@@ -45,3 +45,21 @@ loginForm.addEventListener("submit", onLoginSubmit);
 - 입력값을 저장하기 위해서 사용하는 localStorage (미니 DB 느낌)
 
 - localStorage.setItem(), localStorage.getItem(), localStorage.removeItem() 등의 함수가 있음.
+
+- interval : 매번 일어나야 하는 무언가이다 -> setInterval(실행할 함수, 실행 함수 주기 (ms));
+
+- setTimeout(실행할 함수,멈춰있는 시간(ms)) 는 일정시간 있다가 실행된다.
+
+- date 객체는 new Date() 이런식으로 생성하는데, date 객체에서 요일,시분초 등등을 알 수 있다.
+
+- number를 string으로 바꾸려면 String(number) 하면 바꿔진다.
+
+- padStart(x,'y') 는 string의 길이가 x에 미치지 못할 경우 'y'로 앞에서부터 패딩을 채운다, padEnd는 뒤에서부터 패딩 채운다.
+
+- Math 모듈은 js에 내장되어 있으며 이를 이용하여 다양한 함수를 사용할 수 있다. (Math.floor(), Math.round() 등등)
+
+- js에서 html element를 추가하는 방법은 document.createElement()를 이용한다. (ex : document.createElement("img") 를 하면 html 내에 img 태그 생성)
+
+- document.createElement()를 이용한 후 document.body.appendChild()를 이용해 실질적으로 body 태그 내부에 추가! (맨 뒤에) _
+
+- document.body.prepend()는 제일 앞에 추가
