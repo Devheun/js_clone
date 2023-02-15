@@ -63,3 +63,6 @@ loginForm.addEventListener("submit", onLoginSubmit);
 - document.createElement()를 이용한 후 document.body.appendChild()를 이용해 실질적으로 body 태그 내부에 추가! (맨 뒤에) _
 
 - document.body.prepend()는 제일 앞에 추가
+
+- todo-list를 저장하기 위해 local storage를 사용하는데, 문자열만 저장할 수 있기 때문에,
+JSON.stringify()를 사용하여 문자열 형식으로 바꿔주고, 추후 JSON.parse를 이용하여 문자열을 Array로 만들어서 불러들일 것.
