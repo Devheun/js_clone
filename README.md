@@ -69,3 +69,4 @@ JSON.stringify()를 사용하여 문자열 형식으로 바꿔주고, 추후 JSO
 
 - filter 함수는 true 또는 false를 리턴하는데, false면 filter 처리를 하여 거르고 true면 담는다.
 
+- DOM의 id는 string이다 !! (number 아님)
