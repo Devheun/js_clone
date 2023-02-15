@@ -66,3 +66,6 @@ loginForm.addEventListener("submit", onLoginSubmit);
 
 - todo-list를 저장하기 위해 local storage를 사용하는데, 문자열만 저장할 수 있기 때문에,
 JSON.stringify()를 사용하여 문자열 형식으로 바꿔주고, 추후 JSON.parse를 이용하여 문자열을 Array로 만들어서 불러들일 것.
+
+- filter 함수는 true 또는 false를 리턴하는데, false면 filter 처리를 하여 거르고 true면 담는다.
+
