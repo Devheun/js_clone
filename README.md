@@ -70,3 +70,9 @@ JSON.stringify()를 사용하여 문자열 형식으로 바꿔주고, 추후 JSO
 - filter 함수는 true 또는 false를 리턴하는데, false면 filter 처리를 하여 거르고 true면 담는다.
 
 - DOM의 id는 string이다 !! (number 아님)
+
+- navigator 함수를 이용해 사용자의 위치를 알아낼 수 있다.
+
+- navigator.geolocation.getCurrentPosition(성공시 실행 함수, 실패시 실행 함수);
+
+- js가 position이라는 object로 user에게 정보를 전달해준다.
