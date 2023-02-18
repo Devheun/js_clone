@@ -2,3 +2,10 @@
 	display:none;
 }
 
+#greeting{
+	display:inline;
+}
+
+#logout-form{
+	display:inline;
+}
